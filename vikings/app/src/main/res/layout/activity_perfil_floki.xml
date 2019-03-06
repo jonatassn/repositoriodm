@@ -47,7 +47,7 @@
               android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.06"
       />
       <TextView
-              android:text="Uma longa descricao sobre o personagem Floki"
+              android:text="Floki é um construtor de barcos, ajudou Ragnar a explorar as terras do Oeste. É um observador do mundo. Atento as palavras e atitudes de cada um e extremamente sábio quanto ao destino e ações de seus mais próximos."
               android:layout_width="170dp"
               android:layout_height="184dp"
               android:id="@+id/tvDesc" android:layout_marginTop="48dp"

@@ -45,7 +45,7 @@
               app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
               android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.06"/>
       <TextView
-              android:text="Uma longa descricao sobre o personagem Bjorn Ironside"
+              android:text="Bjorn Ironside (em  nórdico antigo: Bjǫrn Járnsíða literalmente Bjorn flanco-de-ferro) foi um dos 4 filhos de Ragnar Lothbrok com Lagertha na série de televisão Vikings"
               android:layout_width="170dp"
               android:layout_height="184dp"
               android:id="@+id/tvDesc" android:layout_marginTop="48dp"

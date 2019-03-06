@@ -5,54 +5,80 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity" tools:layout_editor_absoluteY="81dp">
 
-      <ImageView
-              android:layout_width="450dp"
-              android:layout_height="225dp" app:srcCompat="@drawable/vikingslogo"
-              android:id="@+id/ivLogoVikings" android:layout_marginTop="8dp"
-              app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-              app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-              android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-              app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-              android:layout_marginStart="8dp"
-              app:layout_constraintVertical_bias="0.085"
-              android:contentDescription="@logo da série vikings com formato de V"
-              tools:srcCompat="@drawable/vikingslogo"/>
-      <ImageView
-              android:layout_width="111dp"
-              android:layout_height="111dp" app:srcCompat="@drawable/ragnar"
-              android:id="@+id/ivRagnar" android:layout_marginTop="280dp"
-              app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-              android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
-      <ImageView
-              android:layout_width="111dp"
-              android:layout_height="111dp" app:srcCompat="@drawable/lagertha" android:id="@+id/ivLagertha"
-              android:layout_marginTop="280dp"
-              app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toEndOf="@+id/ivRagnar"
-              android:layout_marginLeft="4dp" android:layout_marginStart="4dp"/>
-      <ImageView
-              android:layout_width="111dp"
-              android:layout_height="111dp" app:srcCompat="@drawable/bjorn"
-              android:id="@+id/ivBjorn" android:layout_marginTop="280dp"
-              app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toEndOf="@+id/ivLagertha"
-              android:layout_marginLeft="4dp" android:layout_marginStart="4dp"/>
-      <ImageView
-              android:layout_width="111dp"
-              android:layout_height="111dp" app:srcCompat="@drawable/rollo"
-              android:id="@+id/ivRollo"
-              app:layout_constraintTop_toBottomOf="@+id/ivRagnar" app:layout_constraintStart_toStartOf="parent"
-              android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginTop="4dp"/>
-      <ImageView
-              android:layout_width="111dp"
-              android:layout_height="111dp" app:srcCompat="@drawable/athelstan"
-              android:id="@+id/ivAthelstan"
-              app:layout_constraintTop_toBottomOf="@+id/ivLagertha" app:layout_constraintStart_toEndOf="@+id/ivRollo"
-              android:layout_marginLeft="4dp" android:layout_marginStart="4dp" android:layout_marginTop="4dp"/>
-      <ImageView
-              android:layout_width="111dp"
-              android:layout_height="111dp" app:srcCompat="@drawable/floki"
-              android:id="@+id/ivFloki"
-              app:layout_constraintTop_toBottomOf="@+id/ivBjorn" app:layout_constraintStart_toEndOf="@+id/ivAthelstan"
-              android:layout_marginLeft="4dp" android:layout_marginStart="4dp" android:layout_marginTop="4dp"/>
+      <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                  <ImageView
+                          android:layout_width="111dp"
+                          android:layout_height="111dp" app:srcCompat="@drawable/bjorn"
+                          android:id="@+id/ivBjorn"
+                          android:layout_marginTop="8dp"
+                          app:layout_constraintTop_toBottomOf="@+id/ivLogoVikings"
+                          app:layout_constraintEnd_toEndOf="parent"
+                          android:layout_marginEnd="8dp" android:layout_marginRight="8dp"/>
+                  <ImageView
+                          android:layout_width="111dp"
+                          android:layout_height="111dp" app:srcCompat="@drawable/floki"
+                          android:id="@+id/ivFloki"
+                          android:layout_marginTop="8dp"
+                          app:layout_constraintTop_toBottomOf="@+id/ivBjorn" app:layout_constraintEnd_toEndOf="parent"
+                          android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                          android:layout_marginBottom="8dp"
+                          app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.037"/>
+                  <ImageView
+                          android:layout_width="111dp"
+                          android:layout_height="111dp" app:srcCompat="@drawable/lagertha" android:id="@+id/ivLagertha"
+                          android:layout_marginTop="8dp"
+                          app:layout_constraintTop_toBottomOf="@+id/ivLogoVikings"
+                          app:layout_constraintStart_toEndOf="@+id/ivRagnar" android:layout_marginLeft="8dp"
+                          android:layout_marginStart="8dp" app:layout_constraintEnd_toStartOf="@+id/ivBjorn"
+                          android:layout_marginEnd="8dp" android:layout_marginRight="8dp"/>
+                  <ImageView
+                          android:layout_width="111dp"
+                          android:layout_height="111dp" app:srcCompat="@drawable/athelstan"
+                          android:id="@+id/ivAthelstan"
+                          android:layout_marginTop="8dp"
+                          app:layout_constraintTop_toBottomOf="@+id/ivLagertha"
+                          app:layout_constraintStart_toEndOf="@+id/ivRollo"
+                          android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                          app:layout_constraintEnd_toStartOf="@+id/ivFloki" android:layout_marginEnd="8dp"
+                          android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+                          app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.502"
+                          app:layout_constraintVertical_bias="0.0"/>
+                  <ImageView
+                          android:layout_width="111dp"
+                          android:layout_height="111dp" app:srcCompat="@drawable/rollo"
+                          android:id="@+id/ivRollo"
+                          android:layout_marginTop="8dp"
+                          app:layout_constraintTop_toBottomOf="@+id/ivRagnar"
+                          app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                          android:layout_marginBottom="8dp"
+                          app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.037"/>
+                  <ImageView
+                          android:layout_width="382dp"
+                          android:layout_height="212dp" app:srcCompat="@drawable/vikingslogo"
+                          android:id="@+id/ivLogoVikings"
+                          android:contentDescription="@logo da série vikings com formato de V"
+                          tools:srcCompat="@drawable/vikingslogo"
+                          app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                          android:layout_marginEnd="8dp"
+                          app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"/>
+                  <ImageView
+                          android:layout_width="111dp"
+                          android:layout_height="111dp" app:srcCompat="@drawable/ragnar"
+                          android:id="@+id/ivRagnar"
+                          android:layout_marginTop="8dp"
+                          app:layout_constraintTop_toBottomOf="@+id/ivLogoVikings"
+                          app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+      </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

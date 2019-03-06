@@ -45,7 +45,7 @@
               app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
               android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.06"/>
       <TextView
-              android:text="Uma longa descricao sobre o personagem Athelstan"
+              android:text="Athelstan era um monge cristão que foi raptado por Ragnar para fins de estudo da cultura Inglesa. Após algum tempo convivendo com Ragnar acabou tornando-se amigo do fazendeiro-rei viking"
               android:layout_width="170dp"
               android:layout_height="188dp"
               android:id="@+id/tvDesc" android:layout_marginTop="48dp"

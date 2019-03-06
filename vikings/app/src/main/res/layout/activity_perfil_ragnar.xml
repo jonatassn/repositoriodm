@@ -47,12 +47,12 @@
               android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.06"
       />
       <TextView
-              android:text="Uma longa descricao sobre o personagem Ragnar Lothbrok"
+              android:text="Ragnar Lodbrok (em nórdico antigo: Ragnarr Loðbrók; literalmente Ragnar Calças Felpudas) foi um rei lendário da Dinamarca e da Suécia, que teria reinado durante os séculos VIII e IX. "
               android:layout_width="170dp"
               android:layout_height="184dp"
               android:id="@+id/tvDesc" android:layout_marginTop="48dp"
               app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toEndOf="@+id/ivPerfil"
-      />
+              android:textSize="14sp"/>
       <TextView
               android:text="Amigos Favoritos"
               android:layout_width="196dp"

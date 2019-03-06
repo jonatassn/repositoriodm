@@ -47,7 +47,7 @@
               android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.06"
       />
       <TextView
-              android:text="Uma longa descricao sobre o personagem Rollo"
+              android:text="Rollo (em nórdico antigo: Hrólfr) foi um líder viking, fundador e primeiro governante do Ducado da Normandia no período de 911 a 927. Na série de televisão Vikings, Rollo é o irmão de Ragnar Lothbrok, diferentemente do verdadeiro duque."
               android:layout_width="170dp"
               android:layout_height="184dp"
               android:id="@+id/tvDesc" android:layout_marginTop="48dp"
