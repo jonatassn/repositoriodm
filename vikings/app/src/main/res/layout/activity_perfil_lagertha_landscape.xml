@@ -59,7 +59,7 @@
                           android:textSize="16sp" android:visibility="visible"
                   />
                   <TextView
-                          android:text="Uma longa descricao sobre o personagem Lagertha"
+                          android:text="Lagertha foi uma guerreira e reconhecida valquíria, esposa de Ragnar Calças Peludas. A sua carreira bélica teve início quando Frø, um caudilho tribal dos suíones, invadiu Noruega e anunciou que as mulheres da família do conde deviam fazer parte de um bordel"
                           android:layout_width="355dp"
                           android:layout_height="130dp"
                           android:id="@+id/tvDesc" android:layout_marginTop="64dp"
