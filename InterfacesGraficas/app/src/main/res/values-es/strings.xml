@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InterfacesGraficas</string>
+    <string name="nome">Nombre</string>
+    <string name="email">Correo Electronico</string>
+    <string name="recieve_spam">SPAM no manito</string>
+    <string name="message">Mensajita</string>
+    <string name="remarks">Obeservaciónes</string>
+    <string name="send">ANDALE</string>
+</resources>

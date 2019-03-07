@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">InterfacesGraficas</string>
+    <string name="nome">Name</string>
+    <string name="email">E-mail</string>
+    <string name="recieve_spam">Send me SPAM</string>
+    <string name="message">Message</string>
+    <string name="remarks">Remarks</string>
+    <string name="send">SEND MESSAGE</string>
+</resources>

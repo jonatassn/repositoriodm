@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InterfacesGraficas</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="recieve_spam">Desejo receber SPAM</string>
+    <string name="message">Mensagem</string>
+    <string name="remarks">Observações</string>
+    <string name="send">ENVIAR MENSAGEM</string>
+</resources>
