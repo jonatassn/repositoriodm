@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoTask</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+</resources>
