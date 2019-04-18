@@ -1,4 +1,4 @@
-package br.edu.ifpr.jonatas.aula28_03.db.dao
+@package br.edu.ifpr.jonatas.aula28_03.db.dao
 
 import androidx.room.*
 import br.edu.ifpr.jonatas.aula28_03.entities.Person
