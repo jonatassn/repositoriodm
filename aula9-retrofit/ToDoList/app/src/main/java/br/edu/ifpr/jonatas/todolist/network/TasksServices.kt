@@ -41,5 +41,5 @@ interface TasksServices {
     @DELETE("tasks/{id}")
     fun remove(@Path("id")
                id:Long
-    ) : Call<Task>
+    ) : Call<Unit>
 }

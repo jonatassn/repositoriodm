@@ -119,13 +119,15 @@ class TodoActivity : AppCompatActivity(), TaskAdapterListener {
     override fun taskRemoved(task: Task) {
 //        taskDao.remove(task)
         val call = service.remove(task.id)
-        call.enqueue(object : Callback<Task>{
-            override fun onFailure(call: Call<Task>, t: Throwable) {
+        call.enqueue(object : Callback<Unit>{
+            override fun onFailure(call: Call<Unit>, t: Throwable) {
                 Log.e("ERRO", "ERRO ", t)
             }
 
-            override fun onResponse(call: Call<Task>, response: Response<Task>) {
-                Log.i("SUCCESS", "TASK REMOVED")            }
+            override fun onResponse(call: Call<Unit>, response: Response<Unit>) {
+                Log.i("SUCCESS", "TASK DELETED")
+            }
+
         })
     }
 
